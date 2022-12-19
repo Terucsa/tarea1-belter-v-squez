@@ -1,4 +1,23 @@
-.cotainer{
+/*Conocenos*/
+.titulo_conocenos{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4em;
+}
+.texto_conocenos{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 1rem;
+}
+/*Colores para el carusel*/
+.carousel-item{
     display: flex;
     justify-content: center;
+    align-items: center;    
+}
+.carousel-inner div img{
+    height: 50vh;
+    text-align: center;
 }
