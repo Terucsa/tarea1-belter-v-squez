@@ -29,9 +29,9 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-.accordion-button .titulos_acordion{
+.accordion-button {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 .accordion{
     width: 50vw;
@@ -39,3 +39,27 @@
 .tabla-padre{
     width: 30vw;
 }
+/*Footer*/
+.footer_padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 2rem;
+    height: 150px;
+    background-color: azure;
+}
+/**/
+@media only screen and (max-width: 949px) {
+    .acordion-padre{
+        width: 100vw;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tabla-padre{
+        width: 100vw;
+        margin-top: 2rem;
+    
+    }
+}
+ 
